@@ -68,7 +68,7 @@ public class CreateProfileFragment extends Fragment {
 
                     }
                     else {
-                        Toast.makeText(btnCreateAccount.getContext(), "Invalid Password", Toast.LENGTH_LONG).show();
+                        Toast.makeText(btnCreateAccount.getContext(), "Password must have atleast 1caps,1symbol,1number", Toast.LENGTH_LONG).show();
                     }
                     }
 

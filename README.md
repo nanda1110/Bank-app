@@ -1,4 +1,2 @@
-# Bank-app
- Bank app using java and xml
-#runs
- Android studio
+#bio
+ bank app using java and xml
