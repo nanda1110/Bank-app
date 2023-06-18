@@ -100,7 +100,7 @@ public class DashboardFragment extends Fragment {
 
         welcomeString.append(", ")
                 .append(userProfile.getFirstName())
-                .append(". Welcome to the Bank App Demo. ")
+                .append(". Welcome to the EWIT Bank . ")
                 .append(getString(R.string.happy))
                 .append(" ");
 
