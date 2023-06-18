@@ -52,7 +52,7 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
 
         txtTransactionTitle.setText(transaction.getTransactionType().toString() + " - " + transaction.getTransactionID());
         txtTransactionTimestamp.setText(transaction.getTimestamp());
-        txtTransactionAmount.setText("Amount: $" + String.format("%.2f",transaction.getAmount()));
+        txtTransactionAmount.setText("Amount: ₹" + String.format("%.2f",transaction.getAmount()));
 
         if (transaction.getTransactionType() == Transaction.TRANSACTION_TYPE.PAYMENT) {
             imgTransactionIcon.setImageResource(R.drawable.lst_payment_icon);

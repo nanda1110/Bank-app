@@ -117,7 +117,7 @@ public class TransferFragment extends Fragment {
                 Toast.makeText(getActivity(), "You cannot make a transfer to the same account", Toast.LENGTH_SHORT).show();
             }
             else if(transferAmount < 0.01) {
-                Toast.makeText(getActivity(), "The minimum amount for a transfer is $0.01", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "The minimum amount for a transfer is ₹0.01", Toast.LENGTH_SHORT).show();
 
             } else if (transferAmount > userProfile.getAccounts().get(spnSendingAccount.getSelectedItemPosition()).getAccountBalance()) {
 
@@ -153,7 +153,7 @@ public class TransferFragment extends Fragment {
                 json = gson.toJson(userProfile);
                 prefsEditor.putString("LastProfileUsed", json).apply();
 
-                Toast.makeText(getActivity(), "Transfer of $" + String.format(Locale.getDefault(), "%.2f",transferAmount) + " successfully made", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Transfer of ₹" + String.format(Locale.getDefault(), "%.2f",transferAmount) + " successfully made", Toast.LENGTH_SHORT).show();
             }
         }
     }

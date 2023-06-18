@@ -54,7 +54,7 @@
     <string name="confirm_payee_addition">Confirm Payee Addition</string>
     <string name="make_payment_btn_msg">Make Payment</string>
     <string name="account_name_exceeds_char">Account number must be lesser then 8 digits</string>
-    <string name="balance_less_than_ten">The deposit must be more than $10</string>
+    <string name="balance_less_than_ten">The deposit must be more than ₹10</string>
     <string name="acc_fields_incomplete">You have not completed the account fields</string>
     <string name="str_transfers_title">TRANSFERS</string>
     <string name="str_from_acc_msg">Select Sending Account</string>

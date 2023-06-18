@@ -117,7 +117,7 @@ public class TransactionFragment extends Fragment {
             if (adapterView.getId() == spnAccounts.getId()) {
                 selectedAccountIndex = i;
                 txtAccountName.setText("Account: " + userProfile.getAccounts().get(selectedAccountIndex).toTransactionString());
-                txtAccountBalance.setText("Balance: $" + String.format(Locale.getDefault(), "%.2f",userProfile.getAccounts().get(selectedAccountIndex).getAccountBalance()));
+                txtAccountBalance.setText("Balance: ₹" + String.format(Locale.getDefault(), "%.2f",userProfile.getAccounts().get(selectedAccountIndex).getAccountBalance()));
             }
             else if (adapterView.getId() == spnTransactionTypeFilter.getId()) {
                 transFilter = transFilter.getTransFilter(i);
@@ -199,7 +199,7 @@ public class TransactionFragment extends Fragment {
         spnAccounts.setSelection(selectedAccountIndex);
 
         txtAccountName.setText("Account: " + userProfile.getAccounts().get(selectedAccountIndex).toTransactionString());
-        txtAccountBalance.setText("Balance: $" + String.format(Locale.getDefault(), "%.2f",userProfile.getAccounts().get(selectedAccountIndex).getAccountBalance()));
+        txtAccountBalance.setText("Balance: ₹" + String.format(Locale.getDefault(), "%.2f",userProfile.getAccounts().get(selectedAccountIndex).getAccountBalance()));
     }
 
     private void setupSpinners() {

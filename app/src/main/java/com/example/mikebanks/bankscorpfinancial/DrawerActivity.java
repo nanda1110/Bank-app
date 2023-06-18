@@ -301,7 +301,7 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
             applicationDb.saveNewTransaction(userProfile, account.getAccountNo(),
                     account.getTransactions().get(account.getTransactions().size()-1));
 
-            Toast.makeText(this, "Deposit of $" + String.format(Locale.getDefault(), "%.2f",depositAmount) + " " + "made successfully", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Deposit of ₹" + String.format(Locale.getDefault(), "%.2f",depositAmount) + " " + "made successfully", Toast.LENGTH_SHORT).show();
 
             accountAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, userProfile.getAccounts());
             accountAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

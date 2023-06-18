@@ -53,7 +53,7 @@
         android:textColorHint="@android:color/white"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Enter Deposit Amount ($)"
+        android:hint="Enter Deposit Amount (₹)"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textSize="18sp"

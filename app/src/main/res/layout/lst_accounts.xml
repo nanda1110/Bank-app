@@ -47,13 +47,13 @@
 
     <ImageView
         android:id="@+id/img_account"
-        android:layout_width="70dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="79dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/white"
         android:contentDescription="Account Image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/lst_account_icon" />
+        app:srcCompat="@drawable/ru" />
 </android.support.constraint.ConstraintLayout>

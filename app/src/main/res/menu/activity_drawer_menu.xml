@@ -11,7 +11,7 @@
             android:title="Dashboard" />
         <item
             android:id="@+id/nav_accounts"
-            android:icon="@drawable/icon_accounts_24"
+            android:icon="@drawable/acco"
             android:title="Accounts" />
 
         <item android:title="Transaction">
@@ -19,7 +19,7 @@
                 <group android:checkableBehavior="single">
                     <item
                         android:id="@+id/nav_deposit"
-                        android:icon="@drawable/deposit_icon_24"
+                        android:icon="@drawable/rssymbol"
                         android:title="Make a Deposit" />
                     <item
                         android:id="@+id/nav_transfer"
@@ -27,7 +27,7 @@
                         android:title="Make a Transfer" />
                     <item
                         android:id="@+id/nav_payment"
-                        android:icon="@drawable/icon_payment_24"
+                        android:icon="@drawable/payment"
                         android:title="Make a Payment" />
                 </group>
             </menu>
