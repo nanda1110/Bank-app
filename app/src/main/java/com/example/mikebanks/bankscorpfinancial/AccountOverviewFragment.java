@@ -268,7 +268,7 @@ public class AccountOverviewFragment extends Fragment {
                 }
             }
         } else {
-            Toast.makeText(getActivity(), "Please enter an account name", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "Please enter an ACC name", Toast.LENGTH_SHORT).show();
         }
     }
 
